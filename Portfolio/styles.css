@@ -54,7 +54,7 @@ body{
   justify-content: center;  /* vertical centering */
   align-items: center;      /* horizontal centering */
   height: 60vh;            /* full screen height */
-  text-align: center;       /* center text inside elements */
+  text-align: justify;       /* center text inside elements */
   padding: 0 20px;
 }
 
@@ -72,6 +72,11 @@ body{
 }
 
 /* Education Section */
+#Education{
+    display: flex;
+    flex-direction: column;
+    text-align: justify; 
+}
 
 /* courses Me Section */
 
