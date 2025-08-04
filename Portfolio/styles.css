@@ -41,42 +41,73 @@
   cursor: pointer;
 }
 
-/* body */
-body{
-    margin: 0;
-    padding: 0;
+/* body - controls how section stay inline together*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+}
+.page-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
 /* About Me Section */
-#about-me{
+#about-me {
   display: flex;
   flex-direction: column;
-  justify-content: center;  /* vertical centering */
-  align-items: center;      /* horizontal centering */
-  height: 60vh;            /* full screen height */
-  text-align: justify;       /* center text inside elements */
-  padding: 0 20px;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  margin-bottom: 60px;
 }
-
 #profilePic {
-  width: 150px;  /* Adjust as needed */
+  width: 150px;
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
-  margin: 10px 0;
 }
-
 #intro {
-  max-width: 900px;
   line-height: 1.6;
 }
 
-/* Education Section */
-#Education{
-    display: flex;
-    flex-direction: column;
-    text-align: justify; 
+/* Education */
+#Education {
+
 }
+
+#title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+#SchoolHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+#SchoolCreds {
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  margin-top: 4px;
+}
+.credential {
+  margin: 0;
+}
+#GPA,
+#Honors {
+  margin-top: 12px;
+}
+#Honors p {
+  margin-bottom: 0;
+}
+#Honors ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
 
 /* courses Me Section */
 
