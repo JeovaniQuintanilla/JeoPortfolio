@@ -183,7 +183,7 @@ body {
 
 
 /* Contact HTML CSS */
-/*  */
+/* Contact Header section*/
 #Contact {
   background-color: #1F2833;
   border-radius: 10px;
@@ -193,22 +193,32 @@ body {
   box-shadow: 0 0 10px rgba(69, 162, 158, 0.1);
   width: auto;
 }
-
 .page-wrapper-Contact {
   max-width: 600px;
   margin: 0 auto;
   padding: 40px 20px;
  
 }
-
 #ContactHeader {
   color: #66FCF1;
   text-align: center;
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
+#profilePic3 {
+  margin-top: 2rem;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* Conatct Info Section */
 .email {
   display: flex;
   align-items: center;
@@ -225,11 +235,9 @@ body {
   margin-bottom: 10px;
   font-size: 18px;
 }
-
 .icon {
   width: 25px;
 }
-
 hr {
   border: none;
   height: 3px;
@@ -238,25 +246,22 @@ hr {
   margin: 20px auto;
   width: 60%;
 }
-
+/* Socail Section*/
 #SocialHeader {
   margin-bottom: 10px;
   text-align: center;
   font-weight: bold;
   font-size: 15px;
 }
-
 #socials {
   display: flex;
   gap: 5px;
   justify-content: center;
 }
-
 .logo {
   width: 50px;
   transition: transform 0.2s;
 }
-
 .logo:hover {
   transform: scale(1.1);
 }
