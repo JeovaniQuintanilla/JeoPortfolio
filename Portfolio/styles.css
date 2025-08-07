@@ -58,8 +58,8 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 15px;
-  margin-bottom: 60px;
+  gap: 14px;
+  margin-bottom: 40px;
 }
 #profilePic {
   width: 150px;
@@ -69,6 +69,9 @@ body {
 }
 #intro {
   line-height: 1.6;
+}
+#IntroTop{
+  margin-bottom: -2rem;
 }
 
 /* Education */
@@ -113,9 +116,7 @@ body {
 #CoursesHeader{
   font-size: 1.25rem;
   font-weight: bold;
-
 }
-
 #CoursesDiv{
   display: flex;
   justify-content: flex-start;
@@ -129,3 +130,12 @@ body {
 }
 
 /* Skills Section */
+#SkillsDiv{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#SkillsHeader{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
