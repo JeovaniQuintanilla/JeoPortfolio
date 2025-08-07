@@ -83,7 +83,6 @@ body {
   font-weight: 700;
 }
 
-
 /* About Me Section */
 #about-me {
   display: flex;
@@ -104,6 +103,9 @@ body {
 }
 #IntroTop{
   margin-bottom: -2rem;
+}
+#greeting{
+  font-size: 35px;
 }
 
 /* Education Section*/
