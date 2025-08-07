@@ -267,3 +267,9 @@ hr {
 .logo:hover {
   transform: scale(1.1);
 }
+#DownloadBtn{
+  margin-top: 2rem;
+  margin-left: 13rem;
+  height: 3rem;
+  font-weight: bold;
+}
