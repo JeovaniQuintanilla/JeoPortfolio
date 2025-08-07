@@ -126,9 +126,10 @@ body {
 .credential {
   margin: 0;
 }
-#GPA,
+
 #Honors {
   margin-top: 12px;
+
 }
 #Honors p {
   margin-bottom: 0;
