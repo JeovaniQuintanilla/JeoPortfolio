@@ -1,5 +1,6 @@
 console.log("welcome to my Website")
 
+//switching screen methods
 function goToHome(){
     window.location.href = "index.html"
 }
