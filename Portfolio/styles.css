@@ -76,7 +76,7 @@ body {
 
 }
 
-#title {
+#EducationHeader {
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 8px;
@@ -110,5 +110,22 @@ body {
 
 
 /* courses Me Section */
+#CoursesHeader{
+  font-size: 1.25rem;
+  font-weight: bold;
+
+}
+
+#CoursesDiv{
+  display: flex;
+  justify-content: flex-start;
+  gap: 10rem;
+}
+#CoursesDiv ul{
+  border-color: black;
+  border-width: 1px;
+  border-style: ridge;
+  padding: 10px 10px 10px 20px; /* t,r,b,l */
+}
 
 /* Skills Section */
