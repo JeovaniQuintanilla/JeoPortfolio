@@ -8,3 +8,7 @@ function goToProjects(){
      window.location.href = "work.html";
 }
 
+function goToContact(){
+    window.location.href = "contact.html"
+}
+
