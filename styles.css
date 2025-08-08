@@ -92,12 +92,7 @@ body {
   gap: 14px;
   margin-bottom: 40px;
 }
-#profilePic {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-}
+
 #intro {
   line-height: 1.6;
 }
@@ -105,7 +100,7 @@ body {
   margin-bottom: -2rem;
 }
 #greeting{
-  font-size: 35px;
+  font-size: 2rem;
 }
 
 /* Education Section*/
@@ -172,16 +167,71 @@ body {
 
 /* Work HTML CSS */
 /* Skills Section */
-#grid{
-  display: grid;
-  grid-template-columns: 200px 200px;
-  grid-template-rows: 200px 200px;
+#project-page-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  flex-direction: column;
+  align-items: center;   /* Horizontal center */
+  justify-content: center; /* Vertical center */
 }
 
+#grid{
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 350px 350px;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
 
+#GridHeader{
+  font-size: 1.50rem;
+  color: #66FCF1;
+  margin-bottom: 2rem;
+}
 
+#Portfolio,
+#ParkingPal,
+#JQMail,
+#House{
+  background-color: #1F2833;
+  border-radius: 10px;
+  padding: 40px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 10px rgba(69, 162, 158, 0.1);
 
+}
+#Portfolio img,
+#ParkingPal img,
+#JQMail img,
+#House img{
+  width: 90px; 
+  margin-top: 20px; 
+}
 
+.blockHeader {
+  font-size: 1.3rem; 
+  margin-bottom: 12px;
+}
+
+.blockDesc {
+  font-size: 1.1rem; 
+  margin-bottom: 25px; 
+}
+
+/* GitHub button */
+.githubBTN {
+  background: none;
+  border: none;
+  color: #45A29E;
+  font-size: 1.1rem; 
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.githubBTN:hover {
+  transform: scale(1.1);
+}
 
 
 /* Contact HTML CSS */
@@ -189,7 +239,7 @@ body {
 #Contact {
   background-color: #1F2833;
   border-radius: 10px;
-  padding: 20px 0px 20px 0px;
+  padding: 0px 0px 20px 0px;
   margin: 20px;
   color: #C5C6C7;
   box-shadow: 0 0 10px rgba(69, 162, 158, 0.1);
@@ -204,8 +254,7 @@ body {
 #ContactHeader {
   color: #66FCF1;
   text-align: center;
-  font-weight: bold;
-  font-size: 30px;
+  font-size: 1.50rem;
   margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
@@ -213,13 +262,6 @@ body {
   text-align: center;
 }
 
-#profilePic3 {
-  margin-top: 2rem;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-}
 /* Conatct Info Section */
 .email {
   display: flex;
@@ -248,7 +290,7 @@ hr {
   margin: 20px auto;
   width: 60%;
 }
-/* Socail Section*/
+/* Social Section*/
 #SocialHeader {
   margin-bottom: 10px;
   text-align: center;
@@ -272,4 +314,13 @@ hr {
   margin-left: 13rem;
   height: 3rem;
   font-weight: bold;
+}
+
+
+/* CSS based off Class*/
+.profilePic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
 }
