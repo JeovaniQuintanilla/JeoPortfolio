@@ -200,7 +200,7 @@ body {
 #JQMail img,
 #House img{
   width: 90px; 
-  margin-top: 20px; 
+  margin-top: 0px; 
 }
 
 .blockHeader {
@@ -215,16 +215,19 @@ body {
 
 /* GitHub button */
 .githubBTN {
-  background: none;
-  border: none;
+  background: #45A29E20; /* light transparent teal */
+  border: 1px solid #45A29E;
   color: #45A29E;
-  font-size: 1.1rem; 
+  font-size: 1.05rem; 
   cursor: pointer;
-  align-self: flex-start;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
 }
 
 .githubBTN:hover {
-  transform: scale(1.1);
+  background: #45A29E;
+  color: white;
 }
 
 
@@ -303,11 +306,26 @@ hr {
 .logo:hover {
   transform: scale(1.1);
 }
-#DownloadBtn{
+
+#DownloadBtn {
   margin-top: 2rem;
-  margin-left: 13rem;
+  margin-left: 11.5rem;
   height: 3rem;
   font-weight: bold;
+
+  background: #45A29E20; /* light transparent teal */
+  border: 1px solid #45A29E;
+  color: #45A29E;
+  font-size: 1.05rem; 
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+#DownloadBtn:hover {
+  background: #45A29E;
+  color: white;
 }
 
 
