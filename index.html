@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles2.css" />
     <meta charset="UTF-8" />
     <title>Jeovani Quintanilla</title>
     <link rel="icon" href="./pics/icon_Logo.png" type="image/png"  />
@@ -8,8 +8,8 @@
 
 <body>
     <!-- Top of Page + Nav Bar-->
-    <div id="header">
-        <nav>
+    
+        <nav id="header">
             <!-- Left: Logo + Name -->
             <div id="left-nav">
                 <img src="./pics/JQlogo_cyan.png" alt="">
@@ -19,21 +19,25 @@
             <!-- Right: Navigation Links -->
             <ul id="nav-links">
                 <li onclick="goToHome()">About</li>
+                <li onclick="goToEducation()">Education</li>
                 <li onclick="goToProjects()">Projects</li>
                 <li onclick="goToContact()">Contact</li>
             </ul>
         </nav>
-    </div>
 
 
     <div class="page-wrapper">
-        <section id="about-me">
-            <!-- About me Section -->
-             <div id="IntroTop">
+         <!-- Greeting Section -->
+        <section id="greeting"> 
+            <div id="IntroTop">
                 <h2 id="greeting"><strong>Welcome to my Portfolio</strong></h2>
                 <img class="profilePic" src="./pics/Headshot.jpg" alt="">
                 <h2><strong>Hi, I'm Jeovani Quintanilla</strong></h2>
              </div>
+        </section>
+
+        <!-- About me Section -->
+        <section id="about-me">
             <div id="IntroBottom">
                 <p id="intro">
                     I’m a recent graduate of Farmingdale State College, where
@@ -55,116 +59,17 @@
                     becoming certified in DevOps, and eventually pursuing a Master’s degree.
                 </p>
             </div>
-           
+        </section>
+       
+        <section id="goals">
+            <h2>My Short-term goals,</h2>
+            <h2>My Long-term goals,</h2>
         </section>
 
-        <!-- Education Section -->
-        <section id="Education">
-            <div id="EducationHeader"><strong>Education</strong></div>
-            <div id="SchoolHeader">
-                <div id="SchoolName"><strong>Farmingdale State College</strong></div>
-                <div id="GradDate">Graduated: May 2025</div>
-            </div>
 
-            <div id="SchoolCreds">
-                <p class="credential">- Bachelor of Science in Computer Science</p>
-                <p class="credential">- Minor in Computer Networking</p>
-                <p class="credential">- GPA: 3.5</p>
-                <p class="credential">- Latin Honors</p>
-
-            </div>
-
-            <div id="Honors">
-                <p>Achievements:</p>
-                <ul id="item_list">
-                    <li>President's List - Fall 2021</li>
-                    <li>Dean’s List - Fall 2022, Spring 2022, Fall 2023, Fall 2024</li>
-                    <li>Member of Tri-Alpha Honor Society at FSC</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Courses Section -->
-        <section id="Courses">
-            <div id="CoursesHeader"><strong>Courses</strong></div>
-            <div id="coursesIntro">At Farmingdale State College, I have taken courses such as: <br></div>
-            <div id="CoursesDiv">
-                <!-- CS Courses -->
-                <ul id="CSC">
-                    <li>Computer Programming II</li>
-                    <li>Data Structures and Algorithms I & II</li>
-                    <li>Software Engineering</li>
-                    <li>Advanced Programming</li> 
-                    <li>Secure Programming</li>
-                    <li>Ai & Machine Learning</li>
-                    <li>Programming in SQL</li>
-                    <li>Senior Project</li>
-                </ul>
-
-                <!-- Minor Courses -->
-                <ul id="BCS">
-                    <li>Computer Networking</li>
-                    <li>Introduction to Networks</li>
-                    <li>Routing & Switching Essentials</li>
-                    <li>Enterprise Netwking, Sec & Auto</li>
-                    <li>Connecting Networks</li>
-                    <li>UNIX Operating Systems</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Skills Section-->
-        <section id="Skills">
-            <div id="SkillsHeader"><strong>Skills</strong></div>
-            <div id="skillsIntro">The skills I offer include: <br></div>
-            <div id="SkillsDiv">
-
-                <ul id="progSkills">
-                    <li>Programming Languages: Java, Python, HTML, JavaScipt</li>
-                    <li>Styling Languages: CSS, Tailwind</li>
-                    <li>Backend Database: SQL, Firebase</li>
-                    <li>Testing Practices: Junit Testing</li>
-                    <li>Experience in Object Oriented Programming</li>
-                    <li>Experience in Interface Design and Implementation</li>
-                    <li>Experience in Agile development & Methodologies</li>
-                </ul>
-                <div id="other">
-                    <ul id="networkSkills">
-                        <li>Basic Router & Switch Configuration</li>
-                        <li>Knowledge in Networking equipment and protocols</li>
-                    </ul>
-
-                    <ul id="softSkills">
-                        <li>Bilingual: English, Spanish</li>
-                        <li>Strong critical thinking</li>
-                        <li>Strong Multitasking skills</li>
-                        <li>Experience in Adobe & Microsoft Products</li>
-                    </ul>
-
-                </div>
-                
-            </div>
-        </section>
+       
     </div>
     <script src="functions.js"> </script>
 
 </body>
 
-    <!-- Contact Section 
-    <section>
-        <h3>Ways to contact me </h3>
-
-    </section>
-
-   Footer Section 
-    <footer>
-        <h4>Jeovani Quintanilla</h4>
-        <div>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-        </div>
-        <p>© 2025 Jeovani. All rights reserved.</p>
-    </footer>
-
-    <button>Email Me</button>-->
